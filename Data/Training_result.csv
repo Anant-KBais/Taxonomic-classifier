@@ -1,0 +1,20 @@
+﻿Model,Data,Accuracy,F1 score
+GaussianNB,k(5)mer,78%,0.74
+GaussianNB,k(5)mer+metadata,78%,0.74
+GaussianNB,k(4)mer,62%,0.6013
+GaussianNB,k(5)mer(standard-scaled),48%,…
+GaussianNB,k(4)mer + k(5)mer,76.70%,0.752
+GaussianNB,k(3)mer,61.97%,0.6168
+GaussianNB,k(3)mer + k(4)mer + k(5)mer,77%,0.7336
+GaussianNB,k(6)mer,79.38%,0.7612
+GaussianNB,k(7)mer,79.53%,0.7637
+ANN,k(7)mer,82.57%,
+ANN,k(6)mer,81.44%,0.79578
+ANN,k(5)mer,79.78%,0.772842
+ANN,k(4)mer,70.99%,0.66235
+ANN,k(3)mer,72,
+ANN(PCA),k(3)mer,81.63%,0.795
+ANN(PCA),k(4)mer,82.76%,0.81
+ANN(PCA),k(5)mer,83.17%,0.81
+ANN(PCA),k(6)mer,,
+ANN(PCA),k(7)mer,,
